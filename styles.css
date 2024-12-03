@@ -1,0 +1,184 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/istockphoto-515373062-1024x1024.jpg') no-repeat center bottom;
+    background-size: cover;
+    color: #ffffff;
+}
+
+header {
+    background-color: rgba(65, 39, 40, 0.8);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #f9f871;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    color: #e2b659;
+}
+
+.landing {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.landing h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #f9f871;
+}
+
+.landing p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #e2b659;
+}
+
+.cta-button {
+    padding: 12px 25px;
+    background-color: #7f4d3e;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #b87c4c;
+}
+
+.menu-cards {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.menu-cards h2 {
+    font-size: 2.5rem;
+    color: #f9f871;
+}
+
+.card {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgba(65, 39, 40, 0.8);
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card h3 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    color: #f9f871;
+}
+
+.card p {
+    font-size: 1.2rem;
+    color: #e2b659;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(127, 77, 62, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 80%; /* تقليص العرض */
+    padding: 10px; /* تقليص المسافة داخل المربع */
+    margin-bottom: 15px;
+    border: 1px solid #e2b659;
+    font-size: 1rem;
+    border-radius: 4px;
+    background-color: #412728;
+    color: white;
+    box-sizing: border-box; /* التأكد من حساب الحجم بشكل مناسب */
+}
+.contact-form button {
+    width: auto; /* جعل الزر يتناسب مع الحجم */
+    padding: 12px 25px;
+    background-color: #b87c4c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-top: 10px; /* إضافة هامش صغير في الأعلى */
+}
+
+/* تحسين التنسيق عند التفاعل مع الحقول */
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #f9f871;
+    outline: none;
+}
+
+.contact-form button:hover {
+    background-color: #e2b659;
+}
+
+footer {
+    background-color: rgba(65, 39, 40, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-icons a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-icons a:hover {
+    text-decoration: underline;
+    color: #f9f871;
+}
